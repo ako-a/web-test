@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  /*メニューを右端に置く方法その１*/
+  padding: 0 2%;
+  align-items: center;
+  position: fixed;
+  /*ヘッダーの位置を固定*/
+  top: 0;
+  /*ヘッダーの位置を固定（上0）*/
+  left: 0;
+  /*ヘッダーの位置を左固定（左０）*/
+}
+
+h1 img {
+  width: 150px;
+
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #808080
+}
+
+nav {
+  margin-left: auto;
+  /*メニューを右端に置く方法その２*/
+}
+
+
+.firstview {
+  position: relative;
+}
+
+.relative__img {
+  margin: 80px 0 0 auto;
+  display: block;
+  width: 60%;
+}
+
+.firstvew__content {
+  position: absolute;
+  top: 25px;
+  left: 310px;
+}
+
+.absolute-ttl {
+  font-size: 63px;
+  font-family: 'Indie Flower', cursive;
+  color: #C71585;
+  font-style: normal;
+  font-weight: bold;
+}
+
+
+.ttl {
+  font-size: 22px;
+  color: #C71585;
+}
+
+span {
+  color: #008B8B;
+}
+
+.text {
+  color: #808080;
+}
+
+.news__content {
+  margin-top: 50px;
+}
+
+.news-ttl-logo {
+  font-size: 16px;
+  font-family: 'Indie Flower', cursive;
+  color: #C71585;
+  margin-left: 400px;
+}
+
+.news-ttl {
+  color: #808080;
+  margin-left: 400px;
+}
+
+.news-list {
+  padding-left: 350px;
+  display: inline-block;
+}
+
+.line {
+  border-top: 3px solid #DCDCDC;
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.news-nav-item {
+  margin-bottom: 20px;
+}
+
+.news-date {
+  color: #808080;
+  margin: 10px;
+}
+
+.news-tag {
+  width: 100px;
+  color: #fff;
+  background: #C71585;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.news-text {
+  color: #808080;
+  display: inline-block;
+  margin: 10px;
+}
+
+.line-1 {
+  border-top: 1px solid #DCDCDC;
+  width: 800px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.news-nav {
+  margin: 5px auto 0;
+}
+
+.about {
+  background-color: #F5F5F5;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.about__content-ttl-logo {
+  font-size: 16px;
+  font-family: 'Indie Flower', cursive;
+  color: #C71585;
+  margin-left: 680px;
+}
+
+.about__content-ttl {
+  color: #808080;
+  margin-left: 550px;
+}
+
+.about__content-wrap {
+  display: inline-block;
+  width: 800px;
+  height: 800px;
+}
+
+.about__content-text {
+  width: 400px;
+  color: #808080;
+  display: inline-block;
+
+}
+
+.about__img {
+  width: 60%;
+  display: inline-block;
+
+}
