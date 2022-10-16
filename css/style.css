@@ -89,20 +89,23 @@ span {
 }
 
 .news__content {
-  position: relative;
+  position: absolute;
   height: 600px;
+  width: 100%;
+ display: block;
+  
 }
 
 .news-ttl-logo {
   font-size: 16px;
   font-family: 'Indie Flower', cursive;
   color: #C71585;
-  margin-left: 400px;
+  padding-left: 200px;
 }
 
 .news-ttl {
   color: #808080;
-  margin-left: 400px;
+  padding-left: 200px;
 }
 
 .news-list {
@@ -148,7 +151,7 @@ span {
 
 .line-1 {
   border-top: 1px solid #DCDCDC;
-  width: 800px;
+  width: 100%;
   margin-top: 4px;
   margin-bottom: 4px;
 }
@@ -161,10 +164,10 @@ span {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  height: 460px;
-  width: 1500px;
+  height: 450px;
   background-color: #F5F5F5;
-  display: inline-block;
+  margin-top: 600px;
+  display: block;
 }
 
 .about__content-ttl-logo {
@@ -193,8 +196,8 @@ span {
   line-height: 38px;
   white-space: pre-wrap;
   display: inline-block;
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .about__img {
@@ -204,22 +207,23 @@ span {
 
 .service {
   position: absolute;
-  top: 1900px;
-  position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: 1100px;
+  display: block;
+
 }
 
 .service-ttl-logo {
   font-size: 16px;
   font-family: 'Indie Flower', cursive;
   color: #C71585;
-  margin-left: 200px;
+  margin-left: 400px;
 }
 
 .service-ttl {
   color: #808080;
-  margin-left: 200px;
+  margin-left: 400px;
 }
 
 .grid__parent {
@@ -240,16 +244,18 @@ span {
   background-color: rgb(202, 108, 148);
   grid-column: 2/3;
   grid-row: 1/2;
+  display: flex;
 }
 
 .box3 {
   background-color: rgb(204, 164, 188);
   grid-column: 2/3;
   grid-row: 2/3;
+  display: flex;
 }
 
 .box1__img {
-  height: 40%;
+  height: 50%;
   padding-top: 30px;
   margin-left: 170px;
 }
@@ -266,27 +272,59 @@ span {
 }
 
 .box2__img {
-  width: 30%;
-  padding: 20px 0 0 10px;
-  display: inline-block;
-} 
+  width: 35%;
+  padding: 20px 0 0 20px;
+  display: block;
+}
+
 .box2__content-ttl {
   color: #fff;
   display: inline-block;
   vertical-align: top;
-  padding-top: 20px;
+  padding-top: 25px;
+  margin-left: 30px;
 }
-
 
 .box2__content-text {
   color: #fff;
-  vertical-align: top;
-  
-
-
+  line-height: 28px;
+  display: inline-block;
+  margin-left: 30px;
 }
 
 .box3__img {
-  width: 30%;
-  padding: 20px 0 0 10px;
+  width: 35%;
+  padding: 20px 0 0 20px;
+  display: block;
+}
+
+.box3__content-ttl {
+  color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 25px;
+  margin-left: 30px;
+}
+
+.box3__content-text {
+  color: #fff;
+  line-height: 28px;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.blog {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+margin-top: 500px;
+display: block;
+
+}
+.card-ttl-logo {
+font-size: 16px;
+font-family: 'Indie Flower', cursive;
+color: #C71585;
+padding-right: 800px;
+display: block;
 }
