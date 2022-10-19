@@ -203,6 +203,7 @@ span {
   margin-top: 60px;
   height: 550px;
   display: block;
+  margin: 0 auto;
 }
 
 .service-ttl-logo {
@@ -221,7 +222,7 @@ span {
   display: grid;
   grid-template-rows: 200px 200px 200px;
   grid-template-columns: 500px 500px 500px;
-  margin-left: 260px;
+  margin-left: 200px;
 
 }
 
@@ -306,6 +307,7 @@ span {
 
 .flex__item {
   background: #F5F5F5;
+  height: 650px;
   display: block;
 }
 
@@ -332,8 +334,11 @@ span {
   Width: 30%;
 }
 
-.card__img img {
+.card__img {
   position: relative;
+}
+
+.card__img img {
   Width: 100%;
   border-radius: 20px 20px 0 0;
 }
@@ -344,14 +349,14 @@ span {
 }
 
 .card__content-ttl {
-  font-size: 16px;
+  font-size: 17px;
   color: #808080;
 }
 
 .card__cat {
   position: absolute;
-  left: 10px;
-
+  left: 0;
+  border-radius: 20px 0 0 0;
   color: #fff;
   background: #c71585;
   padding: 10px 20px 10px 20px;
@@ -373,5 +378,207 @@ span {
   display: inline-block;
   margin-left: 20px;
   font-weight: 10px;
+  color: #808080;
+}
+
+.list__btn {
+  width: 250px;
+  font-size: 16px;
+  color: #C71585;
+  text-align: center;
+  padding: 20px 60px 20px 60px;
+  background: #fff;
+  border-radius: 30px;
+  border: 3px solid #C71585;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.company {
+  height: 500px;
+  display: block;
+}
+
+.span__ttl-logo {
+  font-size: 16px;
+  font-family: 'Indie Flower', cursive;
+  color: #C71585;
+  margin-left: 300px;
+  padding-top: 40px;
+}
+
+.span__ttl {
+  color: #808080;
+  margin-left: 300px;
+}
+
+.company {
+  display: block;
+  margin: 0 auto;
+}
+
+.company table {
+  margin-left: 300px;
+  border-collapse: collapse;
+  /* セルの境界線を共有 */
+}
+
+.company td {
+  color: #808080;
+  text-align: left;
+  line-height: 38px;
+  font-size: 22px;
+  padding: 10px 10px 10px 20px;
+  width: 500px;
+  border: 1px solid #A9A9A9;
+  /* 表の罫線(=セルの枠線) */
+  padding: 0.5em 1em;
+  /* セル内側の余白量 */
+}
+
+.company th {
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 38px;
+  background-color: #F5F5F5;
+  color: #808080;
+  width: 280px;
+  padding: 10px 10px 10px 20px;
+  border: 1px solid #A9A9A9;
+  /* 表の罫線(=セルの枠線) */
+  padding: 0.5em 1em;
+  /* セル内側の余白量 */
+}
+
+.company tr {
+  border: 1px solid #A9A9A9;
+  /* 表の罫線(=セルの枠線) */
+  padding: 0.5em 1em;
+  /* セル内側の余白量 */
+}
+
+.company__info {
+  display: flex;
+  height: 500px;
+  padding-top: 50px;
+}
+
+.adoption-img {
+  position: relative;
+  width: 800px;
+}
+
+.adoption-img img {
+  width: 100%;
+}
+
+.adoption-btn {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  display: inline-block;
+  color: #fff;
+  width: 200px;
+  font-size: 25px;
+  top: 150px;
+  left: 280px;
+}
+
+.interview-img {
+  position: relative;
+  width: 800px;
+}
+
+.interview-img img {
+  width: 100%;
+}
+
+.interview-btn {
+  position: absolute;
+  text-align: center;
+  left: 200px;
+  display: inline-block;
+  color: #fff;
+  width: 300px;
+  font-size: 25px;
+  top: 150px;
+  left: 230px;
+}
+
+.inquiry {
+  height: 300px;
+  display: block;
+}
+
+.inquiry__tet {
+  color: #808080;
+  font-size: 22px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+  display: block;
+}
+
+.line-2 {
+  margin-left: 50%;
+  margin-top: 15px;
+  width: 3px;
+  height: 40px;
+  background-color: #C71585;
+  display: block;
+}
+
+.inpuiry__btn {
+  position: relative;
+  width: 300px;
+  padding: 30px 0;
+  color: #fff;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #FF1493, #C71585);
+  text-align: center;
+  box-shadow: 0 10px 0 #C71585;
+  margin-left: 40%;
+  display: block;
+  margin-top: -200px;
+}
+
+.inpuiry__btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0, -50%);
+}
+
+.footer {
+  background-color: #F5F5F5;
+  height: 70px;
+  width: 100%;
+  display: block;
+  margin-top: 70px;
+}
+
+.copy-right {
+  display: block;
+  margin: 0 auto;
+}
+
+.copy-right-text {
+  color: #808080;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 40%;
+
+}
+
+.copy-right-text span {
+  font-size: 5px;
   color: #808080;
 }
