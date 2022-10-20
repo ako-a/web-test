@@ -112,7 +112,8 @@ span {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  display: inline-block;
+  white-space: nowrap;
+  display: block;
 }
 
 .line {
@@ -198,15 +199,17 @@ span {
 
 .about__img {
   width: 400px;
+  height: 250px;
   display: inline-block;
   margin-left: 10%;
   margin-top: 2%;
   margin-right: 10%;
+  margin-bottom: 5%;
 }
 
 .service {
   margin-top: 60px;
-  height: 550px;
+
   display: block;
   margin: 0 auto;
 }
@@ -215,19 +218,19 @@ span {
   font-size: 16px;
   font-family: 'Indie Flower', cursive;
   color: #C71585;
-  margin-left: 300px;
+  margin-left: 20%;
 }
 
 .service-ttl {
   color: #808080;
-  margin-left: 200px;
+  margin-left: 20%;
 }
 
 .grid__parent {
   display: grid;
-  grid-template-rows: 200px 200px 200px;
-  grid-template-columns: 500px 500px 500px;
-  margin-left: 20%;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 4fr 4.5fr;
+  margin: 0 20% 0 20%;
 
 }
 
@@ -252,9 +255,10 @@ span {
 }
 
 .box1__img {
-  height: 50%;
+  height: 40%;
   padding-top: 30px;
-  margin-left: 170px;
+  margin-left: 20%;
+  display: block;
 }
 
 .box1__content-ttl {
@@ -265,7 +269,7 @@ span {
 .box1__content-text {
   color: #fff;
   line-height: 32px;
-  padding: 0 60px 0 60px;
+  padding: 0 3% 0 3%;
 }
 
 .box2__img {
@@ -349,6 +353,7 @@ span {
 }
 
 .card__content {
+
   background: #fff;
   padding: 15px 25px;
   border-radius: 0 0 20px 20px;
@@ -370,8 +375,9 @@ span {
 }
 
 .card__content-tag {
+
   padding-bottom: 5px;
-  display: block;
+  display: flex;
 }
 
 .card__content-tag-item {
@@ -473,7 +479,7 @@ span {
 
 .adoption-img {
   position: relative;
-  width: 50vw;
+  width: 50%;
 }
 
 .adoption-img img {
@@ -494,7 +500,7 @@ span {
 
 .interview-img {
   position: relative;
-  width: 50vw;
+  width: 50%;
 }
 
 .interview-img img {
