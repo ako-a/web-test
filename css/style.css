@@ -45,6 +45,10 @@ nav {
   /*メニューを右端に置く方法その２*/
 }
 
+.main {
+  width: 100%;
+}
+
 .firstview {
   position: relative;
 }
@@ -403,7 +407,7 @@ span {
 
 .company {
   height: 500px;
-  margin: 0 auto;
+  width: 80%;
   display: block;
 }
 
@@ -411,22 +415,23 @@ span {
   font-size: 16px;
   font-family: 'Indie Flower', cursive;
   color: #C71585;
-  margin-left: 300px;
   padding-top: 40px;
 }
 
 .span__ttl {
   color: #808080;
-  margin-left: 300px;
 }
 
-.company table {
+.company {
+  display: block;
   margin: 0 auto;
-  padding-left: 23%;
-  padding-right: auto;
+}
+
+.company-table {
+  width: 100%;
+  margin: 0 auto;
   border-collapse: collapse;
   /* セルの境界線を共有 */
-  display: block;
 }
 
 .company td {
@@ -435,7 +440,7 @@ span {
   line-height: 38px;
   font-size: 22px;
   padding: 10px 10px 10px 20px;
-  width: 500px;
+  width: 70%;
   border: 1px solid #A9A9A9;
   /* 表の罫線(=セルの枠線) */
   padding: 0.5em 1em;
@@ -449,7 +454,7 @@ span {
   line-height: 38px;
   background-color: #F5F5F5;
   color: #808080;
-  width: 280px;
+  width: 30%;
   padding: 10px 10px 10px 20px;
   border: 1px solid #A9A9A9;
   /* 表の罫線(=セルの枠線) */
