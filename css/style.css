@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   outline: 1px solid red !important;
-}
+  }
 
 body {
   width: 100vw;
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  width: 100%;
+  width: 100vw;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
@@ -107,7 +107,7 @@ span {
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
-  width: 70%;
+  width: 60%;
   display: block;
 }
 
@@ -404,9 +404,9 @@ span {
 
 .company {
   height: 500px;
+  margin: 0 auto;
   display: block;
-  overflow: hidden;
-}
+  }
 
 .span__ttl-logo {
   font-size: 16px;
@@ -421,14 +421,10 @@ span {
   margin-left: 300px;
 }
 
-.company {
-  display: block;
-  margin: 0 auto;
-
-}
-
 .company table {
   margin: 0 auto;
+  padding-left: 23%;
+  padding-right: auto;
   border-collapse: collapse;
   /* セルの境界線を共有 */
   display: block;
@@ -550,7 +546,7 @@ span {
   background: linear-gradient(90deg, #FF1493, #C71585);
   text-align: center;
   box-shadow: 0 10px 0 #C71585;
-  margin-left: 40%;
+  margin: 0 auto;
   display: block;
   margin-top: -200px;
 }
