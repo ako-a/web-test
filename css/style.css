@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  outline: 1px solid red !important;
 }
 
 body {
@@ -17,12 +18,7 @@ header {
   /*メニューを右端に置く方法その１*/
   padding: 0 2%;
   align-items: center;
-  position: fixed;
-  /*ヘッダーの位置を固定*/
-  top: 0;
-  /*ヘッダーの位置を固定（上0）*/
-  left: 0;
-  /*ヘッダーの位置を左固定（左０）*/
+  overflow: hidden;
 }
 
 h1 img {
@@ -50,7 +46,6 @@ nav {
   /*メニューを右端に置く方法その２*/
 }
 
-
 .firstview {
   position: relative;
 }
@@ -74,7 +69,6 @@ nav {
   font-style: normal;
   font-weight: bold;
 }
-
 
 .ttl {
   font-size: 22px;
@@ -113,14 +107,14 @@ span {
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
+  width: 70%;
   display: block;
 }
 
 .line {
   border-top: 3px solid #DCDCDC;
-  width: 50vw;
-  margin-top: 1vw;
-  margin-bottom: 1vw;
+  width: 100%;
+  margin: 1vw auto;
 }
 
 .news-nav-item {
@@ -318,6 +312,7 @@ span {
   background: #F5F5F5;
   height: 650px;
   display: block;
+  overflow: hidden;
 }
 
 .card-ttl-logo {
@@ -410,6 +405,7 @@ span {
 .company {
   height: 500px;
   display: block;
+  overflow: hidden;
 }
 
 .span__ttl-logo {
@@ -428,12 +424,14 @@ span {
 .company {
   display: block;
   margin: 0 auto;
+
 }
 
 .company table {
-  margin-left: 300px;
+  margin: 0 auto;
   border-collapse: collapse;
   /* セルの境界線を共有 */
+  display: block;
 }
 
 .company td {
@@ -494,8 +492,8 @@ span {
   color: #fff;
   width: 200px;
   font-size: 25px;
-  top: 150px;
-  left: 280px;
+  top: 33%;
+  left: 35%;
 }
 
 .interview-img {
@@ -510,13 +508,14 @@ span {
 .interview-btn {
   position: absolute;
   text-align: center;
-  left: 200px;
+  left: 50%;
   display: inline-block;
   color: #fff;
-  width: 300px;
+  width: 220px;
   font-size: 25px;
-  top: 150px;
-  left: 230px;
+  top: 33%;
+  left: 35%;
+
 }
 
 .inquiry {
